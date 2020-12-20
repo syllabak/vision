@@ -69,7 +69,7 @@
             this.label12.Location = new System.Drawing.Point(41, 4);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(235, 45);
-            this.label12.TabIndex = 118;
+            this.label12.TabIndex = 146;
             this.label12.Text = "Formulaire";
             // 
             // button4
@@ -79,7 +79,7 @@
             this.button4.Location = new System.Drawing.Point(200, 308);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 31);
-            this.button4.TabIndex = 117;
+            this.button4.TabIndex = 145;
             this.button4.Text = "Supprimer";
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -90,7 +90,7 @@
             this.button3.Location = new System.Drawing.Point(104, 308);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 31);
-            this.button3.TabIndex = 116;
+            this.button3.TabIndex = 144;
             this.button3.Text = "Modifier";
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -101,7 +101,7 @@
             this.button2.Location = new System.Drawing.Point(215, 419);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 115;
+            this.button2.TabIndex = 143;
             this.button2.Text = "Imprimmer";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -112,7 +112,7 @@
             this.Filtrer.Location = new System.Drawing.Point(683, 45);
             this.Filtrer.Name = "Filtrer";
             this.Filtrer.Size = new System.Drawing.Size(90, 27);
-            this.Filtrer.TabIndex = 114;
+            this.Filtrer.TabIndex = 142;
             this.Filtrer.Text = "Filtrer";
             this.Filtrer.UseVisualStyleBackColor = false;
             // 
@@ -123,7 +123,7 @@
             this.label10.Location = new System.Drawing.Point(600, 4);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(84, 15);
-            this.label10.TabIndex = 113;
+            this.label10.TabIndex = 141;
             this.label10.Text = "Date d\'expiration";
             // 
             // label6
@@ -133,7 +133,7 @@
             this.label6.Location = new System.Drawing.Point(518, 4);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 15);
-            this.label6.TabIndex = 112;
+            this.label6.TabIndex = 140;
             this.label6.Text = "Désignation";
             // 
             // label9
@@ -143,7 +143,7 @@
             this.label9.Location = new System.Drawing.Point(434, 4);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(22, 15);
-            this.label9.TabIndex = 111;
+            this.label9.TabIndex = 139;
             this.label9.Text = "Réf";
             // 
             // label8
@@ -154,7 +154,7 @@
             this.label8.Location = new System.Drawing.Point(357, 24);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(75, 15);
-            this.label8.TabIndex = 102;
+            this.label8.TabIndex = 130;
             this.label8.Text = "Rechercher";
             // 
             // dateTimePicker3
@@ -162,14 +162,14 @@
             this.dateTimePicker3.Location = new System.Drawing.Point(603, 22);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(170, 20);
-            this.dateTimePicker3.TabIndex = 110;
+            this.dateTimePicker3.TabIndex = 138;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(521, 22);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(76, 20);
-            this.textBox6.TabIndex = 109;
+            this.textBox6.TabIndex = 137;
             // 
             // dateTimePicker2
             // 
@@ -177,7 +177,7 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(121, 243);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(169, 20);
-            this.dateTimePicker2.TabIndex = 108;
+            this.dateTimePicker2.TabIndex = 136;
             // 
             // label11
             // 
@@ -187,7 +187,7 @@
             this.label11.Location = new System.Drawing.Point(7, 277);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(109, 14);
-            this.label11.TabIndex = 107;
+            this.label11.TabIndex = 135;
             this.label11.Text = "Date d\'aujard\'hui";
             // 
             // dateTimePicker1
@@ -196,7 +196,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(121, 272);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(169, 20);
-            this.dateTimePicker1.TabIndex = 106;
+            this.dateTimePicker1.TabIndex = 134;
             // 
             // button1
             // 
@@ -205,7 +205,7 @@
             this.button1.Location = new System.Drawing.Point(8, 308);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 31);
-            this.button1.TabIndex = 105;
+            this.button1.TabIndex = 133;
             this.button1.Text = "Valider";
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -217,7 +217,7 @@
             this.label7.Location = new System.Drawing.Point(8, 248);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(109, 14);
-            this.label7.TabIndex = 104;
+            this.label7.TabIndex = 132;
             this.label7.Text = "Date d\'expiration";
             // 
             // textBox8
@@ -225,7 +225,7 @@
             this.textBox8.Location = new System.Drawing.Point(437, 22);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(78, 20);
-            this.textBox8.TabIndex = 103;
+            this.textBox8.TabIndex = 131;
             // 
             // textBox5
             // 
@@ -233,7 +233,7 @@
             this.textBox5.Location = new System.Drawing.Point(121, 88);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(169, 20);
-            this.textBox5.TabIndex = 101;
+            this.textBox5.TabIndex = 129;
             // 
             // label5
             // 
@@ -243,7 +243,7 @@
             this.label5.Location = new System.Drawing.Point(8, 93);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 14);
-            this.label5.TabIndex = 100;
+            this.label5.TabIndex = 128;
             this.label5.Text = "Désignation";
             // 
             // textBox4
@@ -252,7 +252,7 @@
             this.textBox4.Location = new System.Drawing.Point(121, 167);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(169, 20);
-            this.textBox4.TabIndex = 99;
+            this.textBox4.TabIndex = 127;
             // 
             // label4
             // 
@@ -262,7 +262,7 @@
             this.label4.Location = new System.Drawing.Point(8, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 14);
-            this.label4.TabIndex = 98;
+            this.label4.TabIndex = 126;
             this.label4.Text = "Prix Unité TTC";
             // 
             // textBox3
@@ -271,7 +271,7 @@
             this.textBox3.Location = new System.Drawing.Point(121, 207);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(169, 20);
-            this.textBox3.TabIndex = 97;
+            this.textBox3.TabIndex = 125;
             // 
             // label3
             // 
@@ -281,7 +281,7 @@
             this.label3.Location = new System.Drawing.Point(8, 212);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 14);
-            this.label3.TabIndex = 96;
+            this.label3.TabIndex = 124;
             this.label3.Text = "Quantité";
             // 
             // textBox2
@@ -290,7 +290,7 @@
             this.textBox2.Location = new System.Drawing.Point(121, 131);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(169, 20);
-            this.textBox2.TabIndex = 95;
+            this.textBox2.TabIndex = 123;
             // 
             // label2
             // 
@@ -300,7 +300,7 @@
             this.label2.Location = new System.Drawing.Point(8, 136);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 14);
-            this.label2.TabIndex = 94;
+            this.label2.TabIndex = 122;
             this.label2.Text = "Unité";
             // 
             // textBox1
@@ -309,7 +309,7 @@
             this.textBox1.Location = new System.Drawing.Point(121, 52);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(169, 20);
-            this.textBox1.TabIndex = 93;
+            this.textBox1.TabIndex = 121;
             // 
             // label1
             // 
@@ -319,7 +319,7 @@
             this.label1.Location = new System.Drawing.Point(8, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 14);
-            this.label1.TabIndex = 92;
+            this.label1.TabIndex = 120;
             this.label1.Text = "Réference";
             // 
             // dataGridView1
@@ -328,7 +328,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(296, 76);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(477, 366);
-            this.dataGridView1.TabIndex = 91;
+            this.dataGridView1.TabIndex = 119;
             // 
             // Form3
             // 

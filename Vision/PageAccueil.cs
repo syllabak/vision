@@ -10,23 +10,15 @@ using System.Windows.Forms;
 
 namespace Vision
 {
-    public partial class Login : Form
+    public partial class PageAccueil : Form
     {
-        public Login()
+        public PageAccueil()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            PageAccueil maForm;
-            maForm = new PageAccueil();
-            maForm.Show();
 
         }
     }
