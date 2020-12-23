@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Vision
 {
-    public partial class Form2 : Form
+    public partial class Entrée : Form
     {
-        public Form2()
+        public Entrée()
         {
             InitializeComponent();
         }

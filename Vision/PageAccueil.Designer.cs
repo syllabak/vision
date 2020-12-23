@@ -31,10 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PageAccueil));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entréeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -46,14 +45,17 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.adminToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(536, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(105, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,35 +63,32 @@
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.vendreToolStripMenuItem,
-            this.entréeToolStripMenuItem,
-            this.toolStripComboBox1});
+            this.entréeToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(42, 20);
             this.toolStripMenuItem1.Text = "User";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // vendreToolStripMenuItem
+            // 
+            this.vendreToolStripMenuItem.Name = "vendreToolStripMenuItem";
+            this.vendreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendreToolStripMenuItem.Text = "vendre";
+            this.vendreToolStripMenuItem.Click += new System.EventHandler(this.vendreToolStripMenuItem_Click);
+            // 
+            // entréeToolStripMenuItem
+            // 
+            this.entréeToolStripMenuItem.Name = "entréeToolStripMenuItem";
+            this.entréeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entréeToolStripMenuItem.Text = "entrée";
+            this.entréeToolStripMenuItem.Click += new System.EventHandler(this.entréeToolStripMenuItem_Click);
             // 
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
-            // 
-            // vendreToolStripMenuItem
-            // 
-            this.vendreToolStripMenuItem.Name = "vendreToolStripMenuItem";
-            this.vendreToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.vendreToolStripMenuItem.Text = "vendre";
-            // 
-            // entréeToolStripMenuItem
-            // 
-            this.entréeToolStripMenuItem.Name = "entréeToolStripMenuItem";
-            this.entréeToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.entréeToolStripMenuItem.Text = "entrée";
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -100,6 +99,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -110,6 +110,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -120,6 +121,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // PageAccueil
             // 
@@ -127,14 +129,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(536, 480);
+            this.ClientSize = new System.Drawing.Size(536, 475);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "PageAccueil";
-            this.Text = "PageAccueil";
+            this.Text = "Page d\'accueil";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -151,7 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem vendreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entréeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;

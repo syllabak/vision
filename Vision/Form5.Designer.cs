@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.label12 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Filtrer = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -40,8 +39,6 @@
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
@@ -56,6 +53,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,28 +69,6 @@
             this.label12.Size = new System.Drawing.Size(235, 45);
             this.label12.TabIndex = 146;
             this.label12.Text = "Formulaire";
-            // 
-            // button4
-            // 
-            this.button4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(197, 314);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 31);
-            this.button4.TabIndex = 145;
-            this.button4.Text = "Supprimer";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(101, 314);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 31);
-            this.button3.TabIndex = 144;
-            this.button3.Text = "Modifier";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -179,25 +155,6 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(169, 20);
             this.dateTimePicker2.TabIndex = 136;
             // 
-            // label11
-            // 
-            this.label11.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(4, 283);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(109, 14);
-            this.label11.TabIndex = 135;
-            this.label11.Text = "Date d\'aujard\'hui";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(118, 278);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(169, 20);
-            this.dateTimePicker1.TabIndex = 134;
-            // 
             // button1
             // 
             this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -216,15 +173,15 @@
             this.label7.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(5, 254);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 14);
+            this.label7.Size = new System.Drawing.Size(114, 14);
             this.label7.TabIndex = 132;
-            this.label7.Text = "Date d\'expiration";
+            this.label7.Text = "Date de naissance";
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(434, 28);
+            this.textBox8.Location = new System.Drawing.Point(435, 28);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(78, 20);
+            this.textBox8.Size = new System.Drawing.Size(77, 20);
             this.textBox8.TabIndex = 131;
             // 
             // textBox5
@@ -242,9 +199,9 @@
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(5, 99);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 14);
+            this.label5.Size = new System.Drawing.Size(35, 14);
             this.label5.TabIndex = 128;
-            this.label5.Text = "Désignation";
+            this.label5.Text = "Nom";
             // 
             // textBox4
             // 
@@ -261,9 +218,9 @@
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 14);
+            this.label4.Size = new System.Drawing.Size(71, 14);
             this.label4.TabIndex = 126;
-            this.label4.Text = "Prix Unité TTC";
+            this.label4.Text = "Téléphone";
             // 
             // textBox3
             // 
@@ -299,9 +256,9 @@
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(5, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 14);
+            this.label2.Size = new System.Drawing.Size(53, 14);
             this.label2.TabIndex = 122;
-            this.label2.Text = "Unité";
+            this.label2.Text = "Prénom";
             // 
             // textBox1
             // 
@@ -318,9 +275,9 @@
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(5, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 14);
+            this.label1.Size = new System.Drawing.Size(19, 14);
             this.label1.TabIndex = 120;
-            this.label1.Text = "Réference";
+            this.label1.Text = "Id";
             // 
             // dataGridView1
             // 
@@ -330,14 +287,24 @@
             this.dataGridView1.Size = new System.Drawing.Size(477, 366);
             this.dataGridView1.TabIndex = 119;
             // 
+            // button4
+            // 
+            this.button4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button4.Location = new System.Drawing.Point(5, 425);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 148;
+            this.button4.Text = "Déconnexion";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(775, 459);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Filtrer);
             this.Controls.Add(this.label10);
@@ -347,8 +314,6 @@
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox8);
@@ -363,6 +328,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form5";
             this.Text = "Form5";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -374,8 +340,6 @@
         #endregion
 
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button Filtrer;
         private System.Windows.Forms.Label label10;
@@ -385,8 +349,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox8;
@@ -401,5 +363,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button4;
     }
 }

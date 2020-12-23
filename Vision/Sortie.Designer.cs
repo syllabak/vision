@@ -1,6 +1,6 @@
 ﻿namespace Vision
 {
-    partial class Form3
+    partial class Sortie
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sortie));
             this.label12 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Filtrer = new System.Windows.Forms.Button();
@@ -56,6 +56,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,30 +69,19 @@
             this.label12.ForeColor = System.Drawing.Color.MediumBlue;
             this.label12.Location = new System.Drawing.Point(41, 4);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(235, 45);
+            this.label12.Size = new System.Drawing.Size(144, 45);
             this.label12.TabIndex = 146;
-            this.label12.Text = "Formulaire";
-            // 
-            // button4
-            // 
-            this.button4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(200, 308);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 31);
-            this.button4.TabIndex = 145;
-            this.button4.Text = "Supprimer";
-            this.button4.UseVisualStyleBackColor = false;
+            this.label12.Text = "Vision";
             // 
             // button3
             // 
             this.button3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(104, 308);
+            this.button3.Location = new System.Drawing.Point(200, 308);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 31);
             this.button3.TabIndex = 144;
-            this.button3.Text = "Modifier";
+            this.button3.Text = "Selectionner";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -330,13 +320,24 @@
             this.dataGridView1.Size = new System.Drawing.Size(477, 366);
             this.dataGridView1.TabIndex = 119;
             // 
-            // Form3
+            // button4
+            // 
+            this.button4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button4.Location = new System.Drawing.Point(0, 419);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 147;
+            this.button4.Text = "Déconnexion";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // Sortie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 447);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.button4);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Filtrer);
@@ -363,8 +364,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Sortie";
+            this.Text = "Vente";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -374,7 +376,6 @@
         #endregion
 
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button Filtrer;
@@ -401,5 +402,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button4;
     }
 }

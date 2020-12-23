@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Vision
 {
-    public partial class Form3 : Form
+    public partial class Admin : Form
     {
-        public Form3()
+        public Admin()
         {
             InitializeComponent();
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
